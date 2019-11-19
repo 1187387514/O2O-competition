@@ -6,3 +6,9 @@
 
 在优化方面，因为计算机性能不行，现版本的模型超参数调参是做得很粗糙的，使用cross validation进行参数调优还有很大的空间可以提升。
 同时，这个版本的模型ensemble也比较简单，后续可以使用更复杂的stacking进行优化
+
+备注：
+O2O.ipynb文件是特征处理和模型使用的全过程代码；
+ccf_offline_stage1_train.zip压缩包是训练集离线数据
+ccf_online_stage1_train.zip压缩包是训练集在线数据
+ccf_offline_stage1_test_revised.csv文件是需要预测的数据的feature
